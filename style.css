@@ -1,0 +1,414 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(32, 15, 86);;
+}
+.areaLateral{
+    background: #040517;;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.areaPerfil{
+    display: flex;
+    margin-top: 25%;
+    margin-bottom: 80%;
+    margin-left: 10%;
+}
+.fotoPerfil{
+    width: 30%;
+    border-radius: 4px;
+
+}
+
+.nomeEditarPerfil{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.nomePerfil{
+    font-size: 16px;
+    color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.editePerfil{
+    font-size: 10px;
+    margin-top: 13%;
+    text-decoration: none;
+    color: #e5e5e5e7;
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.editePerfil:hover{
+    opacity: 1;
+}
+
+.divisorPerfil{
+    width: 55%;
+    opacity: 0.5;
+    border-top: 1px solid;
+}
+
+/* PRIMEIRA DIV */
+.nav1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 23%;
+    margin-bottom: 20%;
+}
+.nav1 a{
+    text-decoration: none;
+    color: #e5e5e5e7;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.nav1 a:hover{
+    opacity: 1;
+}
+.nav1 i{
+    margin-right: 2%;
+}
+
+/* SEGUNDA NAV */
+
+.nav2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 23%;
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: #e5e5e5e7;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.nav2 a:hover{
+    opacity: 1 ;
+}
+
+.nav2 i{
+    margin-right: 5%;
+}
+
+/* AREA DAS MÚSICAS */
+
+.areaMusicas{
+    width: 76%;
+    background: rgb(32, 15, 86);;
+}
+
+.barraDePesquisa{
+    border: none;
+    width: 90%;
+    background: rgb(32, 15, 86);
+    height: 5%;
+    margin-top: 2%;
+    color: #e5e5e5e7;
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 2%;
+}
+
+/* AREA SECUNDARIA DAS MÚSICAS*/
+
+.areaMusicas i{
+    color: #e5e5e5e7;
+    opacity: 0.5;
+}
+
+
+.featuredMusic{
+    width: 100%;
+    margin-top: 3%;
+}
+
+.featuredTitle{
+    font-size: 20px;
+    color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+
+.musicScroll{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    overflow: auto;
+}
+
+.musicScroll::-webkit-scrollbar{
+    height: 10px;
+}
+.musicScroll::-webkit-scrollbar-track{
+    border-radius: 8px;
+}
+
+.musicScroll::-webkit-scrollbar-thumb{
+    background: #280051;
+    border-radius: 8px;
+}
+.musicDisplay{
+    width: 35%;
+    margin-right: 2%;
+}
+
+.musicPhoto{
+    width: 300px;
+    height: 199.8px;
+    border-radius: 15px;
+    transition: 1s;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.musicPhoto:hover{
+    transform: scale(0.9);
+}
+
+
+.nameOfMusic{
+    color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.tracking{
+    font-size: 12px;
+    color: #e5e5e5e7;
+    margin-top: 2%;
+}
+
+/* PROFILES AREA */
+
+.profileAndTracks{
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.profileContainer{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile:hover{
+    opacity: 1;
+}
+
+.profileTitle{
+    color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.nameProfile{
+    color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.profileDados{
+    margin-left: 3%;
+}
+
+.profileAtividade{
+    color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    opacity: 0.5;
+    margin-top: 10%;
+    
+}
+
+.profileUni{
+    display:flex;
+    margin-top: 5%;
+}
+
+
+.profileUni img{
+    width: 10%;
+    border-radius: 8px;
+}
+
+.albunsNumeros{
+    color: #e5e5e5e7;
+    opacity: 0.5;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 5%;
+    width: 30%;
+}
+
+/* TRACKS */
+
+.tracksContainer{
+    width: 40%;
+    margin-right: 5%;
+}
+
+.titleTracks{
+    color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+.tracksRoll{
+    overflow: auto;
+    display: flex;
+    height: 170px;
+}
+
+.trackName{
+    color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5%;
+}
+
+.trackAutor{
+    color: #e5e5e5e7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    opacity: 0.5;
+    margin-top: 1%;
+}
+
+.trackSet{
+    width: 30%;
+    margin-right: 5%;
+}
+
+.trackSet img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.tracksRoll::-webkit-scrollbar{
+    height: 10px;
+}
+.tracksRoll::-webkit-scrollbar-track{
+    border-radius: 8px;
+}
+
+.tracksRoll::-webkit-scrollbar-thumb{
+    background: #280051;
+    border-radius: 8px;
+}
+
+@media (max-width:767px){
+    body{
+        width: 100%;
+        background: rgb(32, 15, 86);;
+    }
+
+    .container{
+        justify-content: space-around;
+    }
+
+    .areaMusicas{
+        width: 90%;
+    }
+
+    .barraDePesquisa{
+        height: 30px;
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    .areaLateral{
+        display: none;
+    }
+
+    .featuredTitle{
+        margin-top: 10%;
+        font-size: 24px;
+    }
+
+    .musicPhoto{
+        width: 100px;
+        height: 100px;
+    }
+
+    .musicDisplay{
+        margin-right: 10%;
+    }
+
+    .musicScroll{
+        height: 200px;
+        margin-top: 10%;
+    }
+
+    .profileContainer{
+        width: 100%;
+    }
+
+    
+
+    .profileTitle{
+        font-size: 24px;
+    }
+
+    .albunsNumeros{
+        display: none;
+    }
+
+    .profileAndTracks{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profileDados{
+        margin-top: 1%;
+    }
+
+    .featuredMusic{
+        width: 100%;
+    }
+    
+
+    .tracksContainer{
+        width: 100%;
+    }
+
+    .titleTracks{
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 24px;
+    }
+
+    .areaDeBusca{
+        margin-top: 5%;
+    }
+
+}
